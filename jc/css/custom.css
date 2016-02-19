@@ -1,0 +1,124 @@
+.navbar {
+	margin-bottom: 0;
+}
+.navbar-default {
+	background: rgba(0, 0, 0, 0);
+	border: none;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+.jumbotron {
+	background: #292e38;
+	background: linear-gradient(to bottom right, #292e38 30%, #7488b2);
+	background:
+		linear-gradient(
+			rgba(33, 150, 255, .5), 
+			rgba(33, 150, 255, .2)
+			), 
+		url("../img/gym.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding-top: 25vh !important;
+	padding-bottom: 25vh !important;
+	box-shadow: 0px 0px 35px 10px rgba(166,166,166,1);
+}
+.jumbotron p:first-of-type {
+	color: #fff;
+}
+
+#about {
+	margin-top: 140px;
+}
+#about h1 {
+	color: #fff;
+}
+
+#programs {
+	padding: 15rem 0;
+}
+#programs .glyphicon {
+	color: #292e38;
+	font-size: 600%;
+}
+#message {
+	height: 100px;
+}
+#coaching {
+	padding: 15rem 0;
+	background: #f7f7f7;
+	font-size: 1.3em;
+	border-bottom: 7vw solid #2196ff;
+}
+i {
+	color: #fff;
+	padding: 0 20px;
+}
+#contact {
+	background: #f9f9f9;
+	padding: 10rem 0;
+}
+#contact h1 {
+	margin-bottom: 50px;
+}
+.form-control {
+	background-color: rgba(0,0,0,0);
+	border-radius: 0;
+	font-size: 1.2em;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	box-shadow: none;
+	transition: all 0.3s ease 0s;
+}
+.form-control:focus {
+	box-shadow: none;
+}
+#contact .btn {
+	height: 50px;
+	border-radius: 0;
+	font-size: 1.4em;
+	background: rgba(0,0,0,0);
+	border: 2px solid #2196ff;
+	transition: all 0.3s ease 0s;
+	color: #2196ff;
+}
+#contact .btn:hover {
+	background: #2196ff;
+	color: #fff;
+}
+footer {
+	padding: 15px 0;
+	background-color: #060c16;
+	background: 
+		radial-gradient(
+			rgba(6, 12, 22, .8),
+			rgba(6, 12, 22, 1)
+			),
+		url("../img/metaltexture.jpg");
+	background-size: cover;
+	color: #aaa;
+}
+footer i {
+	color: #aaa;
+	padding: 0 10px;
+	transition: all 0.3s ease 0s;
+}
+footer i:hover {
+	color: #66afe9;
+}
+.soc-btn {
+	display: inline-block;
+}
+@media (max-width: 768px) {
+  footer p {
+  	text-align: center;
+  }
+  footer .text-right {
+  	text-align: center;
+  }
+  #programs .col-sm-4 {
+  	padding-bottom: 50px;
+  }
+}
